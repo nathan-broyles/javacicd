@@ -23,4 +23,4 @@
 # echo 'The following command runs and outputs the execution of your Java'
 # echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 # set -x
-sudo java -jar /root/.m2/repository/com/mycompany/app/my-app/1.0-SNAPSHOT/my-app-1.0-SNAPSHOT.jar
+java -jar /builds/prototypes/javacicd/target/my-app-1.0-SNAPSHOT.jar
