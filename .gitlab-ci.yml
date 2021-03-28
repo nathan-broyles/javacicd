@@ -29,5 +29,6 @@ deploy:
 deliver:
     stage: Deliver
     script:
+        - mvn -B -DskipTests clean package
         - chmod a+x ci/scripts/deliver.sh
         - ./ci/scripts/deliver.sh
