@@ -25,5 +25,5 @@
 # set -x
 pwd
 ls
-chmod a+x /target/my-app-1.0-SNAPSHOT.jar
-java -jar /target/my-app-1.0-SNAPSHOT.jar
+chmod a+x /builds/prototypes/javacicd/target/my-app-1.0-SNAPSHOT.jar
+java -jar /builds/prototypes/javacicd/target/my-app-1.0-SNAPSHOT.jar
