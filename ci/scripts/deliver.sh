@@ -23,6 +23,7 @@
 # echo 'The following command runs and outputs the execution of your Java'
 # echo 'application (which Jenkins built using Maven) to the Jenkins UI.'
 # set -x
-ls /builds/prototypes/javacicd/target
-chmod a+x /builds/prototypes/javacicd/target/my-app-1.0-SNAPSHOT.jar
-java -jar /builds/prototypes/javacicd/target/my-app-1.0-SNAPSHOT.jar
+pwd
+ls
+chmod a+x /target/my-app-1.0-SNAPSHOT.jar
+java -jar /target/my-app-1.0-SNAPSHOT.jar
